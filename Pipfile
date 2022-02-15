@@ -10,6 +10,7 @@ black = "==20.8b1"
 [dev-packages]
 flake8 = "*"
 black = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
