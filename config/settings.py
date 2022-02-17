@@ -50,6 +50,7 @@ PROJECT_APPS = [
     "reviews.apps.ReviewsConfig",
     "resevations.apps.ResevationsConfig",
     "lists.apps.ListsConfig",
+    "conversations.apps.ConversationsConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
