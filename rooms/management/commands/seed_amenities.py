@@ -4,7 +4,7 @@ from rooms.models import Amenity
 
 class Command(BaseCommand):
 
-    help = "This command tells me that he loves me"
+    help = "This command creates amenities"
 
     """ def add_arguments(self, parser):
         parser.add_argument(
@@ -15,26 +15,26 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         amenities = [
-            "Kitchen",
             "Heating",
             "Washer",
             "Wifi",
             "Indoor fireplace",
             "Iron",
             "Laptop friendly workspace",
+            "Toast machine",
             "Crib",
-            "Self check-in",
-            "Carbon monoxide detector",
             "Shampoo",
+            "Rinse",
+            "Conditioner",
+            "Body wash",
+            "Body lotion",
+            "Bath towel",
             "Air conditioning",
             "Dryer",
             "Breakfast",
             "Hangers",
             "Hair dryer",
-            "TV",
-            "High chair",
             "Smoke detector",
-            "Private bathroom",
         ]
         for a in amenities:
             Amenity.objects.create(name=a)
