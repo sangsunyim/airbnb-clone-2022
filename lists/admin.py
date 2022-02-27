@@ -1,4 +1,3 @@
-from asyncio.proactor_events import _ProactorBaseWritePipeTransport
 from django.contrib import admin
 from . import models
 
